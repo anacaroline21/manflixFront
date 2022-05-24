@@ -1,0 +1,35 @@
+.html{
+    max-width: 100px;
+  overflow-x: hidden;
+}
+
+
+.primeFieldReset{
+    border: none !important;
+    box-shadow: none !important;
+    &::placeholder{
+        font-size: 14px;
+        font-family: 'NetflixSansRegular';
+    }
+    
+    &::-ms-clear,
+    &::-ms-reveal{
+        display: none;
+    }
+
+}
+.p-password i{ 
+        width:auto;        
+
+}
+
+.primeFieldPassword{
+    width: 100%;
+    // max-width: 100% !important;
+    background-color: var(--background-field-color) !important;
+    color: white !important;
+    &::placeholder{
+        color: var(--placeholder-field-color);
+    }
+}
+
